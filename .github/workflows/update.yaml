@@ -22,7 +22,7 @@ jobs:
       run: pip install requests
 
     - name: Run Parser Script
-      run: python parse.py
+      run: python parsing.py
 
     - name: Commit and Push Changes
       run: |

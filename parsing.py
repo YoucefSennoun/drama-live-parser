@@ -2,8 +2,8 @@ import requests
 
 def fetch_and_parse():
     # 1. Mimic Drama Live's payload to get data
-    url = "https://fgcode.org/endpoint_url" 
-    payload = {"code": "YOUR_DRAMALIVE_CODE"}
+    url = "https://fgcode.org/232425" 
+    payload = {"code": "232425"}
     response = requests.post(url, json=payload).json()
     
     # 2. Convert raw JSON data to M3U format string
